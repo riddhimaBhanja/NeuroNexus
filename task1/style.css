@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #d3cce3, #e9e4f0);
+  }
+  
+  .form-container {
+    background: #ffffff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to top left, #fdfbfb, #ebedee);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #4a148c;
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+  
+  form label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #8e24aa;
+    outline: none;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+  }
+  
+  .radio-group label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  button {
+    background: linear-gradient(to right, #8e24aa, #6a1b9a);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #7b1fa2, #4a148c);
+    transform: scale(1.02);
+  }
